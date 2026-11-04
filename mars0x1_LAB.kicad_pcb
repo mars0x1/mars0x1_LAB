@@ -6599,7 +6599,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2830185.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 11 -11.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -14748,7 +14748,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2830185.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 11 -11.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -15810,7 +15810,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2830185.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 11 -11.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
