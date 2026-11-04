@@ -1,0 +1,13 @@
+# KiCad Project ignores
+*.kicad_prl
+*.bak
+*-bak
+_autosave*
+*.bck
+#auto_saved_files#
+*.lck
+temp-freerouting.dsn
+drc_report.json
+erc_report.json
+fp-info-cache
+mars0x1_LAB-backups/
