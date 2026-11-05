@@ -400,7 +400,7 @@
 				)
 			)
 		)
-		(path "/69b7804c-336b-4212-a147-61f0f3527993")
+		(path "/eda6ac5d-4aab-4206-be77-2966f40e2bc0")
 		(attr through_hole)
 		(fp_line
 			(start 3.25 1.15)
@@ -6968,7 +6968,7 @@
 				)
 			)
 		)
-		(path "/275241fc-4731-44b8-8f2d-525c1b58ee59")
+		(path "/2a0a920b-238e-4560-804c-df6263633831")
 		(attr smd)
 		(fp_line
 			(start 0.65 1.46)
@@ -8511,7 +8511,7 @@
 				)
 			)
 		)
-		(path "/c8aea7c5-f174-449d-b5a0-90abaaaaae4d")
+		(path "/e3820a4b-91fb-41a2-9988-fa0012345678")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -11262,7 +11262,7 @@
 				)
 			)
 		)
-		(path "/275241fc-4731-44b8-8f2d-525c1b58ee59")
+		(path "/44a3f837-9543-49c5-926c-fe8fa1f45190")
 		(attr smd)
 		(fp_line
 			(start 0.65 1.46)
@@ -11807,7 +11807,7 @@
 				)
 			)
 		)
-		(path "/69b7804c-336b-4212-a147-61f0f3527993")
+		(path "/bae4d71a-2d06-42bd-816d-ec108dba7ff3")
 		(attr through_hole)
 		(fp_line
 			(start -3.25 -1.15)
@@ -12352,7 +12352,7 @@
 				)
 			)
 		)
-		(path "/69b7804c-336b-4212-a147-61f0f3527993")
+		(path "/33550562-a337-4cc1-bbce-7453eeb6999f")
 		(attr through_hole)
 		(fp_line
 			(start 3.25 1.15)
@@ -13453,7 +13453,7 @@
 				)
 			)
 		)
-		(path "/69b7804c-336b-4212-a147-61f0f3527993")
+		(path "/4fd8a2e5-be76-4955-b48f-b19a57f05ce6")
 		(attr through_hole)
 		(fp_line
 			(start 3.25 1.15)
@@ -18162,7 +18162,7 @@
 				)
 			)
 		)
-		(path "/327af4c9-4859-49ae-9715-b81f65b424da")
+		(path "/47859cd6-f1df-475c-85ff-1611c5a8817d")
 		(sheetname "/")
 		(sheetfile "mars0x1_LAB.kicad_sch")
 		(attr smd)
@@ -19893,7 +19893,7 @@
 				)
 			)
 		)
-		(path "/275241fc-4731-44b8-8f2d-525c1b58ee59")
+		(path "/f4745bf7-62b4-433a-b035-c9514a9eee64")
 		(attr smd)
 		(fp_line
 			(start 0.65 1.46)
@@ -20775,7 +20775,7 @@
 				)
 			)
 		)
-		(path "/69b7804c-336b-4212-a147-61f0f3527993")
+		(path "/e05c5ad6-e80b-42bd-a18d-1dd24770a38d")
 		(attr through_hole)
 		(fp_line
 			(start 3.25 1.15)
@@ -21588,7 +21588,7 @@
 				)
 			)
 		)
-		(path "/275241fc-4731-44b8-8f2d-525c1b58ee59")
+		(path "/35471754-f482-4a23-8aa8-0de2ee679a09")
 		(attr smd)
 		(fp_line
 			(start 0.65 1.46)
@@ -26165,7 +26165,7 @@
 				)
 			)
 		)
-		(path "/69b7804c-336b-4212-a147-61f0f3527993")
+		(path "/b7604c61-ef81-4fae-b55b-9026ba3ef287")
 		(attr through_hole)
 		(fp_line
 			(start -3.25 -1.15)

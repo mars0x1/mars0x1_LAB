@@ -4,14 +4,6 @@
 	(generator_version "9.0")
 	(uuid "d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8")
 	(paper "A3")
-	(title_block
-		(title "mars0x1_LAB: Mixed-Signal Electronics Workstation")
-		(date "2026-11-04")
-		(rev "v1.0")
-		(company "Powered by Hack Club")
-		(comment 1 "4-Channel 10MHz DSO | 12.5MHz DDS Function Gen | Dual Pulse Gen")
-		(comment 2 "Designed by mars0x1")
-	)
 	(lib_symbols
 		(symbol "BNC7T-J-P-XX-RA-BH1_1"
 			(pin_names
@@ -458,7 +450,7 @@
 							)
 						)
 					)
-					(number "S2"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -477,7 +469,7 @@
 							)
 						)
 					)
-					(number "S3"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -496,7 +488,7 @@
 							)
 						)
 					)
-					(number "S4"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -952,7 +944,7 @@
 							)
 						)
 					)
-					(number "S2"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -971,7 +963,7 @@
 							)
 						)
 					)
-					(number "S3"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -990,7 +982,7 @@
 							)
 						)
 					)
-					(number "S4"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1446,7 +1438,7 @@
 							)
 						)
 					)
-					(number "S2"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1465,7 +1457,7 @@
 							)
 						)
 					)
-					(number "S3"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1484,7 +1476,7 @@
 							)
 						)
 					)
-					(number "S4"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1940,7 +1932,7 @@
 							)
 						)
 					)
-					(number "S2"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1959,7 +1951,7 @@
 							)
 						)
 					)
-					(number "S3"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1978,7 +1970,7 @@
 							)
 						)
 					)
-					(number "S4"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2434,7 +2426,7 @@
 							)
 						)
 					)
-					(number "S2"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2453,7 +2445,7 @@
 							)
 						)
 					)
-					(number "S3"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2472,7 +2464,7 @@
 							)
 						)
 					)
-					(number "S4"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2928,7 +2920,7 @@
 							)
 						)
 					)
-					(number "S2"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2947,7 +2939,7 @@
 							)
 						)
 					)
-					(number "S3"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2966,7 +2958,7 @@
 							)
 						)
 					)
-					(number "S4"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5016,7 +5008,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5035,7 +5027,7 @@
 							)
 						)
 					)
-					(number "S2"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5054,7 +5046,7 @@
 							)
 						)
 					)
-					(number "S3"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5073,7 +5065,7 @@
 							)
 						)
 					)
-					(number "S4"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8782,6 +8774,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ESP32-S3 ADC INPUT PROTECTION (CH1 - CH4)"
+		(exclude_from_sim no)
+		(at 183.642 176.022 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "62206188-62a9-44f7-88e3-f3c041e69ece")
+	)
 	(text_box "Oscilloscope\n"
 		(exclude_from_sim no)
 		(at 192.024 13.462 0)
@@ -8904,8 +8908,8 @@
 	)
 	(text_box "Ref\n"
 		(exclude_from_sim no)
-		(at 192.024 127.254 0)
-		(size 92.456 37.338)
+		(at 190.754 128.016 0)
+		(size 92.456 43.434)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.508)
@@ -9173,6 +9177,12 @@
 		(uuid "9ee70649-3380-47ce-938d-5b0b1621afe1")
 	)
 	(junction
+		(at 113.03 181.102)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5a4753b-3373-4868-984e-c4fb06c79e4e")
+	)
+	(junction
 		(at 129.794 112.776)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9287,6 +9297,12 @@
 		(uuid "f2d75fd9-b73b-46ed-8ac5-9cdcd5447227")
 	)
 	(junction
+		(at 158.496 182.118)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6838c1a-ea44-49db-8ee4-d37bbd7e5d71")
+	)
+	(junction
 		(at 98.552 37.338)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9307,6 +9323,26 @@
 			(type default)
 		)
 		(uuid "02547353-5816-446c-b01d-10c1cf2d2602")
+	)
+	(wire
+		(pts
+			(xy 221.742 186.182) (xy 226.822 186.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039c140b-9744-42cf-924b-9aa37d85fd1a")
+	)
+	(wire
+		(pts
+			(xy 188.722 206.502) (xy 196.342 206.502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049515dc-a5b9-4837-a9b4-40ed46643244")
 	)
 	(wire
 		(pts
@@ -9390,6 +9426,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.496 192.278) (xy 158.496 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa867ec-1168-4f23-a211-25e7d812be1c")
+	)
+	(wire
+		(pts
 			(xy 254.3138 73.0294) (xy 245.9318 73.0294)
 		)
 		(stroke
@@ -9467,6 +9513,36 @@
 			(type default)
 		)
 		(uuid "1dd47ba0-2fb5-4dd8-aee4-c9a765d9f645")
+	)
+	(wire
+		(pts
+			(xy 206.502 198.882) (xy 211.582 198.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f66c316-f3d9-485f-b36f-d51e40bd9661")
+	)
+	(wire
+		(pts
+			(xy 257.048 160.02) (xy 257.048 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d08c9c-e04b-4da0-a9c8-a9c0376fbeac")
+	)
+	(wire
+		(pts
+			(xy 221.742 203.962) (xy 226.822 203.962)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210a2f26-779c-450e-832e-76a55e530434")
 	)
 	(wire
 		(pts
@@ -9560,7 +9636,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 153.416) (xy 207.01 158.496)
+			(xy 215.9 159.766) (xy 215.9 164.846)
 		)
 		(stroke
 			(width 0)
@@ -9577,6 +9653,16 @@
 			(type default)
 		)
 		(uuid "2a87fe1c-84cc-4cbb-8c3a-706ce4872f29")
+	)
+	(wire
+		(pts
+			(xy 277.368 160.02) (xy 257.048 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d119ec7-4042-4b35-ab8f-301bc55fd6be")
 	)
 	(wire
 		(pts
@@ -9607,6 +9693,16 @@
 			(type default)
 		)
 		(uuid "2e92c507-fb15-4811-bce4-b9dd99ea7c45")
+	)
+	(wire
+		(pts
+			(xy 221.742 196.342) (xy 226.822 196.342)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb5cbd2-3fe6-486e-8f78-8b6e3b6f4502")
 	)
 	(wire
 		(pts
@@ -9687,6 +9783,16 @@
 			(type default)
 		)
 		(uuid "37060e07-609c-47d3-997f-8f01e6096907")
+	)
+	(wire
+		(pts
+			(xy 113.03 191.262) (xy 113.03 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3828e053-4b1d-46c6-b8a0-79b4399ead7a")
 	)
 	(wire
 		(pts
@@ -9780,7 +9886,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.584 158.496) (xy 227.584 147.066)
+			(xy 235.966 164.846) (xy 235.966 147.066)
 		)
 		(stroke
 			(width 0)
@@ -9900,6 +10006,16 @@
 	)
 	(wire
 		(pts
+			(xy 221.742 193.802) (xy 226.822 193.802)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f23c86c-9c72-4e9d-b384-27fa6013d13a")
+	)
+	(wire
+		(pts
 			(xy 132.08 112.776) (xy 136.398 112.776)
 		)
 		(stroke
@@ -10000,6 +10116,16 @@
 	)
 	(wire
 		(pts
+			(xy 188.722 198.882) (xy 196.342 198.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57842c63-7d9b-408d-b227-bd60fb386073")
+	)
+	(wire
+		(pts
 			(xy 28.956 31.242) (xy 28.956 31.496)
 		)
 		(stroke
@@ -10017,6 +10143,16 @@
 			(type default)
 		)
 		(uuid "59212f83-86be-4757-9d0c-ed194c67ec2d")
+	)
+	(wire
+		(pts
+			(xy 207.264 159.766) (xy 207.264 153.416)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59db230d-aa16-4870-b9c3-e00ed9e8d354")
 	)
 	(wire
 		(pts
@@ -10060,6 +10196,16 @@
 	)
 	(wire
 		(pts
+			(xy 206.502 191.262) (xy 211.582 191.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625f7e46-42de-4cbe-af36-ecca05eb15a0")
+	)
+	(wire
+		(pts
 			(xy 242.57 144.78) (xy 242.57 141.224)
 		)
 		(stroke
@@ -10080,6 +10226,16 @@
 	)
 	(wire
 		(pts
+			(xy 188.722 191.262) (xy 196.342 191.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6429f2c1-bacd-4148-b856-b46429718aa7")
+	)
+	(wire
+		(pts
 			(xy 211.582 47.244) (xy 211.582 46.99)
 		)
 		(stroke
@@ -10087,6 +10243,16 @@
 			(type default)
 		)
 		(uuid "64953394-e9f5-497e-925a-83c9e39c8b80")
+	)
+	(wire
+		(pts
+			(xy 215.9 159.766) (xy 207.264 159.766)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b7530d-cb58-4780-ac3e-bb59422f3e20")
 	)
 	(wire
 		(pts
@@ -10310,7 +10476,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.584 147.066) (xy 227.33 147.066)
+			(xy 235.966 147.066) (xy 227.33 147.066)
 		)
 		(stroke
 			(width 0)
@@ -10490,6 +10656,16 @@
 	)
 	(wire
 		(pts
+			(xy 221.742 188.722) (xy 226.822 188.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3949ba-4bba-4951-b4d5-85b724aac656")
+	)
+	(wire
+		(pts
 			(xy 31.75 40.64) (xy 25.146 40.64)
 		)
 		(stroke
@@ -10497,6 +10673,16 @@
 			(type default)
 		)
 		(uuid "9f340c63-1818-4141-a909-de4d399b3ff8")
+	)
+	(wire
+		(pts
+			(xy 221.742 201.422) (xy 226.822 201.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f47235d-d084-469d-b677-959e039b0949")
 	)
 	(wire
 		(pts
@@ -10680,6 +10866,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.264 153.416) (xy 207.01 153.416)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2b31d9-34fb-4133-98e2-2c52f44a318a")
+	)
+	(wire
+		(pts
 			(xy 254.508 99.06) (xy 254.508 99.568)
 		)
 		(stroke
@@ -10860,6 +11056,16 @@
 	)
 	(wire
 		(pts
+			(xy 206.502 206.502) (xy 211.582 206.502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1facfcc-b5db-4891-b0b1-2027dc337b77")
+	)
+	(wire
+		(pts
 			(xy 53.594 21.082) (xy 53.594 20.828)
 		)
 		(stroke
@@ -10990,6 +11196,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 83.82) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3820a4b-91fb-41a2-9988-fa0012345687")
+	)
+	(wire
+		(pts
 			(xy 132.334 42.164) (xy 132.334 38.354)
 		)
 		(stroke
@@ -10997,6 +11213,16 @@
 			(type default)
 		)
 		(uuid "e3e798d4-bd17-4874-bdbb-ff82b7ac9df4")
+	)
+	(wire
+		(pts
+			(xy 257.048 167.64) (xy 252 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57ed299-9174-430a-81be-bc8705b56e65")
 	)
 	(wire
 		(pts
@@ -11040,6 +11266,16 @@
 	)
 	(wire
 		(pts
+			(xy 206.502 183.642) (xy 211.582 183.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed323054-6214-4144-9a89-7df6a4328235")
+	)
+	(wire
+		(pts
 			(xy 264.922 107.188) (xy 264.16 107.188)
 		)
 		(stroke
@@ -11080,6 +11316,16 @@
 	)
 	(wire
 		(pts
+			(xy 188.722 183.642) (xy 196.342 183.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bc21cf-a95e-490a-b723-dbdbc1948e5d")
+	)
+	(wire
+		(pts
 			(xy 156.718 113.792) (xy 156.718 110.236)
 		)
 		(stroke
@@ -11110,6 +11356,26 @@
 	)
 	(wire
 		(pts
+			(xy 221.742 209.042) (xy 226.822 209.042)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f598f1da-a7e9-4f4e-b7c5-f71585c34eaa")
+	)
+	(wire
+		(pts
+			(xy 277.368 165.1) (xy 277.368 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5998a66-bc0f-4d6e-a400-6ea90c977892")
+	)
+	(wire
+		(pts
 			(xy 264.7278 65.4094) (xy 263.9658 65.4094)
 		)
 		(stroke
@@ -11127,6 +11393,16 @@
 			(type default)
 		)
 		(uuid "f66eba27-827a-4276-9476-46496a35c496")
+	)
+	(wire
+		(pts
+			(xy 221.742 181.102) (xy 226.822 181.102)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6df877f-ef34-4458-843c-e282eb4ab14f")
 	)
 	(wire
 		(pts
@@ -11180,7 +11456,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 158.496) (xy 227.584 158.496)
+			(xy 215.9 164.846) (xy 235.966 164.846)
 		)
 		(stroke
 			(width 0)
@@ -11280,6 +11556,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH-2"
+		(shape output)
+		(at 206.502 191.262 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "015b6725-d3f5-4110-a175-4ccd3d5b6ed9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.502 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11416,6 +11712,46 @@
 			)
 		)
 	)
+	(global_label "DGND"
+		(shape input)
+		(at 158.496 195.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f3060eb-9612-4c9a-801d-3062449baa88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.496 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 226.822 196.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "107a2747-a4eb-458c-a7fa-005d179eebb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.822 196.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO 13"
 		(shape input)
 		(at 157.48 78.74 180)
@@ -11526,6 +11862,26 @@
 			)
 		)
 	)
+	(global_label "DGND"
+		(shape input)
+		(at 226.822 209.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20b3a142-795d-46a0-a2f8-4175b2f5fd66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.822 209.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IND+"
 		(shape input)
 		(at 241.3 27.94 0)
@@ -11566,6 +11922,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DGND"
+		(shape input)
+		(at 113.03 194.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ac3c4b1-368e-4cdf-ad01-60932ef8409b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11702,6 +12078,26 @@
 			)
 		)
 	)
+	(global_label "CH-3"
+		(shape output)
+		(at 206.502 198.882 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3633fd8f-d860-4dd4-8ad9-161d1066a5ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.502 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "2.5V"
 		(shape input)
 		(at 254.508 88.9 90)
@@ -11742,6 +12138,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH4_BUF"
+		(shape input)
+		(at 188.722 206.502 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38ddc8ec-b10a-4953-be6a-68b9f224e55a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.722 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11852,6 +12268,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 226.822 203.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48ca3b03-b54c-4081-9d76-87eb3a907a19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.822 203.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11988,6 +12424,26 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 226.822 188.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fd289d8-91dc-404b-b64e-11dc3e94a4c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.822 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO 12"
 		(shape input)
 		(at 24.384 118.872 180)
@@ -12006,6 +12462,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH-4"
+		(shape output)
+		(at 206.502 206.502 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5337a5a9-9df7-4c85-b7c1-56b86acf6440")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.502 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12604,6 +13080,46 @@
 			)
 		)
 	)
+	(global_label "CH2_BUF"
+		(shape input)
+		(at 188.722 191.262 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d82f787-fbed-49e3-ae97-b92643f84e50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.722 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH1_BUF"
+		(shape input)
+		(at 188.722 183.642 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f5aee72-32a3-4064-aaae-40b5dda1ee24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.722 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 200.914 70.612 270)
@@ -12626,6 +13142,26 @@
 			)
 		)
 	)
+	(global_label "DGND"
+		(shape input)
+		(at 226.822 201.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9157f32f-5a81-4083-94c6-de4d56e56d0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.822 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "-12V"
 		(shape input)
 		(at 177.038 121.158 90)
@@ -12644,6 +13180,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DGND"
+		(shape input)
+		(at 226.822 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9244ef54-8cde-4c1b-b1e4-0dda9041bc38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.822 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 226.822 181.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92bb4949-e57c-4e14-bbbc-d204358384d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.822 181.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13000,6 +13576,26 @@
 			)
 		)
 	)
+	(global_label "CH3_BUF"
+		(shape input)
+		(at 188.722 198.882 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7958485-c528-46d4-9d96-8db2b0ce5d72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.722 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+12"
 		(shape input)
 		(at 205.994 30.48 180)
@@ -13176,6 +13772,26 @@
 			)
 		)
 	)
+	(global_label "DGND"
+		(shape input)
+		(at 226.822 186.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c407547d-1584-4038-ac35-d7c900455fed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.822 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IND+"
 		(shape input)
 		(at 211.582 57.658 180)
@@ -13282,6 +13898,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DGND"
+		(shape input)
+		(at 252 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d40c0343-a62e-40e8-bfd5-93b472ce2d25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13528,6 +14164,106 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 177.8 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3820a4b-91fb-41a2-9988-fa0012345682")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DGND"
+		(shape input)
+		(at 177.8 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3820a4b-91fb-41a2-9988-fa0012345683")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO 10"
+		(shape input)
+		(at 177.8 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3820a4b-91fb-41a2-9988-fa0012345684")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO 13"
+		(shape input)
+		(at 177.8 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3820a4b-91fb-41a2-9988-fa0012345685")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO 11"
+		(shape input)
+		(at 177.8 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3820a4b-91fb-41a2-9988-fa0012345686")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "-12AC"
 		(shape input)
 		(at 24.384 40.64 180)
@@ -13700,6 +14436,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH-1"
+		(shape output)
+		(at 206.502 183.642 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5951ab1-0ba8-4771-80f6-680175e7b7d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.502 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15687,6 +16443,85 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:BAT54S_C545549")
+		(at 216.662 191.262 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a0a920b-238e-4560-804c-df6263633831")
+		(property "Reference" "D10"
+			(at 220.472 196.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 214.884 199.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C545549_SOT-23-3_L2_9-W1_3-P1_90-LS2_4-TL"
+			(at 226.822 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403231255_UMW-Youtai-Semiconductor-Co---Ltd--BAT54S_C545549.pdf"
+			(at 216.535 193.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky Barrier Diode Clamp for ESP32 ADC Protection"
+			(at 216.662 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C545549"
+			(at 216.662 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d4b79a0-253a-49a2-acab-573d72dc4632")
+		)
+		(pin "2"
+			(uuid "962a7d02-a1ad-4f29-98c2-3177cedf5c16")
+		)
+		(pin "3"
+			(uuid "97f1c6c7-dd69-4a3c-ab0e-92d5841f0286")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:LM7912CT_C7432211")
 		(at 84.074 38.608 0)
 		(unit 1)
@@ -15982,6 +16817,152 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
+		(at 201.422 198.882 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33550562-a337-4cc1-bbce-7453eeb6999f")
+		(property "Reference" "R34"
+			(at 201.422 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 201.422 201.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
+			(at 201.422 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.422 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current-Limiting Resistor for ESP32-S3 ADC Protection"
+			(at 201.422 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca7cc613-a42e-44e9-8e32-70dce6989de2")
+		)
+		(pin "2"
+			(uuid "dcec4963-a5af-4c6c-a5bc-2ff936ac0774")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:BAT54S_C545549")
+		(at 216.662 206.502 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35471754-f482-4a23-8aa8-0de2ee679a09")
+		(property "Reference" "D12"
+			(at 220.472 211.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 214.884 214.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C545549_SOT-23-3_L2_9-W1_3-P1_90-LS2_4-TL"
+			(at 226.822 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403231255_UMW-Youtai-Semiconductor-Co---Ltd--BAT54S_C545549.pdf"
+			(at 216.535 208.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky Barrier Diode Clamp for ESP32 ADC Protection"
+			(at 216.662 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C545549"
+			(at 216.662 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ebfc127-0e2f-45b8-a2f1-e5f1cdcee696")
+		)
+		(pin "2"
+			(uuid "d55c2f72-ab92-489e-a6ce-a18754910697")
+		)
+		(pin "3"
+			(uuid "b5ba4cc3-988d-469f-93fc-6a860c636e13")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 211.582 70.612 0)
 		(unit 1)
@@ -16047,6 +17028,179 @@
 				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
 					(reference "C19")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:BAT54S_C545549")
+		(at 216.662 183.642 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44a3f837-9543-49c5-926c-fe8fa1f45190")
+		(property "Reference" "D9"
+			(at 220.472 188.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 214.884 192.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C545549_SOT-23-3_L2_9-W1_3-P1_90-LS2_4-TL"
+			(at 226.822 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403231255_UMW-Youtai-Semiconductor-Co---Ltd--BAT54S_C545549.pdf"
+			(at 216.535 185.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky Barrier Diode Clamp for ESP32 ADC Protection"
+			(at 216.662 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C545549"
+			(at 216.662 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a327bead-e1fb-4231-961c-641c28b5422a")
+		)
+		(pin "2"
+			(uuid "13275586-f942-4685-91d1-9f9dd330ef4c")
+		)
+		(pin "3"
+			(uuid "8b9fce7c-6c04-4cf7-9224-52bf5709c65f")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:TLV9062IDR")
+		(at 264.668 165.1 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47859cd6-f1df-475c-85ff-1611c5a8817d")
+		(property "Reference" "U11"
+			(at 264.668 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062IDR"
+			(at 262.636 155.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C398355_SOIC-8_L5_0-W4_0-P1_27-LS6_0-BL"
+			(at 250.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-TLV9062IDR_C398355.pdf"
+			(at 247.904 147.193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TLV9062IDR"
+			(at 250.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C398355"
+			(at 250.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8d126cf8-8343-4cd3-8a48-496d3e9c73b4")
+		)
+		(pin "6"
+			(uuid "632a6e2a-33af-4ed2-a0bc-5c07442cffd6")
+		)
+		(pin "7"
+			(uuid "ab9be0b2-281c-4fb8-aacd-fae0623d12d5")
+		)
+		(pin "3"
+			(uuid "89e87c58-c060-497f-bbf1-3cd83f98d5b5")
+		)
+		(pin "8"
+			(uuid "9c8fbecf-cd37-4cc8-a890-1e9bc00efa39")
+		)
+		(pin "1"
+			(uuid "e0c226d9-1a00-4c59-9885-c37df05f864c")
+		)
+		(pin "2"
+			(uuid "23e394ab-4361-4832-a41d-4fd85dcd7320")
+		)
+		(pin "4"
+			(uuid "76ccc232-a424-42bb-aa88-5bbccd7a1212")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "U11")
+					(unit 2)
 				)
 			)
 		)
@@ -16375,6 +17529,73 @@
 			(project "mars0x1_LAB"
 				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
+		(at 201.422 206.502 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fd8a2e5-be76-4955-b48f-b19a57f05ce6")
+		(property "Reference" "R35"
+			(at 201.422 204.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 201.422 208.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
+			(at 201.422 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.422 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current-Limiting Resistor for ESP32-S3 ADC Protection"
+			(at 201.422 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ce05d50-5093-4c27-a15d-1750cd2942eb")
+		)
+		(pin "2"
+			(uuid "01606ea2-4624-4c78-bc12-bd7c239f159f")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -18991,6 +20212,138 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
+		(at 113.03 186.182 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7604c61-ef81-4fae-b55b-9026ba3ef287")
+		(property "Reference" "R37"
+			(at 115.316 186.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 110.744 186.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
+			(at 113.03 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-down resistor for Q4 pulse output"
+			(at 113.03 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d100fdb8-0748-41ad-9d54-f1739741026f")
+		)
+		(pin "2"
+			(uuid "9e303fc6-781e-4e79-a157-c63bdc68343d")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
+		(at 158.496 187.198 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bae4d71a-2d06-42bd-816d-ec108dba7ff3")
+		(property "Reference" "R36"
+			(at 160.782 187.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 156.21 187.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
+			(at 158.496 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.496 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-down resistor for Q1 pulse output"
+			(at 158.496 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "943b60d6-8569-4a4a-bea1-4250e8ed5fb2")
+		)
+		(pin "2"
+			(uuid "6b0b8411-3a72-45d8-86b1-52d6015ac1fb")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 25.146 45.72 90)
 		(unit 1)
@@ -20571,6 +21924,73 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
+		(at 201.422 191.262 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e05c5ad6-e80b-42bd-a18d-1dd24770a38d")
+		(property "Reference" "R33"
+			(at 201.422 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 201.422 193.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
+			(at 201.422 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.422 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current-Limiting Resistor for ESP32-S3 ADC Protection"
+			(at 201.422 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbc6779b-7136-4d4b-86e2-11522b02b6a5")
+		)
+		(pin "2"
+			(uuid "4d52a83e-991c-402c-ad48-f9d2bf75cd58")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:TIP31C")
 		(at 168.402 126.238 180)
 		(unit 1)
@@ -20656,6 +22076,158 @@
 			(project ""
 				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x07_Socket")
+		(at 182.88 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3820a4b-91fb-41a2-9988-fa0012345678")
+		(property "Reference" "J12"
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AD9833_ALT"
+			(at 184.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Alternate AD9833 socket (Pin 4=FSYNC, Pin 6=MOSI)"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3820a4b-91fb-41a2-9988-fa0012345671")
+		)
+		(pin "2"
+			(uuid "e3820a4b-91fb-41a2-9988-fa0012345672")
+		)
+		(pin "3"
+			(uuid "e3820a4b-91fb-41a2-9988-fa0012345673")
+		)
+		(pin "4"
+			(uuid "e3820a4b-91fb-41a2-9988-fa0012345674")
+		)
+		(pin "5"
+			(uuid "e3820a4b-91fb-41a2-9988-fa0012345675")
+		)
+		(pin "6"
+			(uuid "e3820a4b-91fb-41a2-9988-fa0012345676")
+		)
+		(pin "7"
+			(uuid "e3820a4b-91fb-41a2-9988-fa0012345677")
+		)
+		(instances
+			(project ""
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
+		(at 201.422 183.642 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eda6ac5d-4aab-4206-be77-2966f40e2bc0")
+		(property "Reference" "R32"
+			(at 201.422 181.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 201.422 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
+			(at 201.422 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.422 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current-Limiting Resistor for ESP32-S3 ADC Protection"
+			(at 201.422 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3451092-cc5f-465f-a846-da6ef9e75883")
+		)
+		(pin "2"
+			(uuid "0f9067cc-188d-4f9f-ba35-f5204a93f18c")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -20828,6 +22400,85 @@
 			(project "mars0x1_LAB"
 				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:BAT54S_C545549")
+		(at 216.662 198.882 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4745bf7-62b4-433a-b035-c9514a9eee64")
+		(property "Reference" "D11"
+			(at 220.472 203.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 214.884 207.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C545549_SOT-23-3_L2_9-W1_3-P1_90-LS2_4-TL"
+			(at 226.822 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403231255_UMW-Youtai-Semiconductor-Co---Ltd--BAT54S_C545549.pdf"
+			(at 216.535 201.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Schottky Barrier Diode Clamp for ESP32 ADC Protection"
+			(at 216.662 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C545549"
+			(at 216.662 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3100d2fa-123c-45e2-894b-af5dc01e3e06")
+		)
+		(pin "2"
+			(uuid "82836d97-a15b-412c-a5eb-8d55ac95c8f7")
+		)
+		(pin "3"
+			(uuid "1071d1ea-94ae-4a72-a3a3-cf042d14a1ab")
+		)
+		(instances
+			(project "mars0x1_LAB"
+				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -21498,719 +23149,10 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "lcsc_imported:TLV9062IDR")
-		(at 264.668 165.1 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47859cd6-f1df-475c-85ff-1611c5a8817d")
-		(property "Reference" "U11"
-			(at 264.668 158.75 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "TLV9062IDR"
-			(at 262.636 155.148 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C398355_SOIC-8_L5_0-W4_0-P1_27-LS6_0-BL"
-			(at 250.19 157.48 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-TLV9062IDR_C398355.pdf"
-			(at 247.904 147.193 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "TLV9062IDR"
-			(at 250.19 147.32 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "LCSC" "C398355"
-			(at 250.19 147.32 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "5" (uuid "8d126cf8-8343-4cd3-8a48-496d3e9c73b4"))
-		(pin "6" (uuid "632a6e2a-33af-4ed2-a0bc-5c07442cffd6"))
-		(pin "7" (uuid "ab9be0b2-281c-4fb8-aacd-fae0623d12d5"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "U11")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(wire (pts (xy 277.368 165.1) (xy 277.368 160.02)) (stroke (width 0) (type default)) (uuid "f5998a66-bc0f-4d6e-a400-6ea90c977892"))
-	(wire (pts (xy 277.368 160.02) (xy 257.048 160.02)) (stroke (width 0) (type default)) (uuid "2d119ec7-4042-4b35-ab8f-301bc55fd6be"))
-	(wire (pts (xy 257.048 160.02) (xy 257.048 162.56)) (stroke (width 0) (type default)) (uuid "20d08c9c-e04b-4da0-a9c8-a9c0376fbeac"))
-	(wire (pts (xy 257.048 167.64) (xy 252.0 167.64)) (stroke (width 0) (type default)) (uuid "e57ed299-9174-430a-81be-bc8705b56e65"))
-	(global_label "DGND" (shape input) (at 252.0 167.64 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "d40c0343-a62e-40e8-bfd5-93b472ce2d25"))
-	(text "ESP32-S3 ADC INPUT PROTECTION (CH1 - CH4)"
-		(at 175.26 160.02 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "62206188-62a9-44f7-88e3-f3c041e69ece")
-	)
-
-	(global_label "CH1_BUF"
-		(shape input)
-		(at 180.34 167.64 180)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "8f5aee72-32a3-4064-aaae-40b5dda1ee24")
-	)
-	(wire (pts (xy 180.34 167.64) (xy 187.96 167.64)) (stroke (width 0) (type default)) (uuid "f2bc21cf-a95e-490a-b723-dbdbc1948e5d"))
-	(symbol
-		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
-		(at 193.04 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eda6ac5d-4aab-4206-be77-2966f40e2bc0")
-		(property "Reference" "R32"
-			(at 193.04 165.35399999999998 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "1k"
-			(at 193.04 169.926 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
-			(at 193.04 167.64 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Datasheet" "~"
-			(at 193.04 167.64 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "Current-Limiting Resistor for ESP32-S3 ADC Protection"
-			(at 193.04 167.64 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "a3451092-cc5f-465f-a846-da6ef9e75883"))
-		(pin "2" (uuid "0f9067cc-188d-4f9f-ba35-f5204a93f18c"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire (pts (xy 198.12 167.64) (xy 203.2 167.64)) (stroke (width 0) (type default)) (uuid "ed323054-6214-4144-9a89-7df6a4328235"))
-	(junction (at 198.12 167.64) (diameter 0) (color 0 0 0 0) (uuid "e959e2c5-8956-443b-b33b-b1fd105c2bc8"))
-	(global_label "CH-1"
-		(shape output)
-		(at 198.12 167.64 90)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "f5951ab1-0ba8-4771-80f6-680175e7b7d7")
-	)
-	(symbol
-		(lib_id "lcsc_imported:BAT54S_C545549")
-		(at 208.28 167.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44a3f837-9543-49c5-926c-fe8fa1f45190")
-		(property "Reference" "D9"
-			(at 212.09 172.72 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "BAT54S"
-			(at 206.502 176.022 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C545549_SOT-23-3_L2_9-W1_3-P1_90-LS2_4-TL"
-			(at 218.44 167.64 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403231255_UMW-Youtai-Semiconductor-Co---Ltd--BAT54S_C545549.pdf"
-			(at 208.153 169.803 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "Dual Schottky Barrier Diode Clamp for ESP32 ADC Protection"
-			(at 208.28 167.64 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "LCSC" "C545549"
-			(at 208.28 167.64 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "a327bead-e1fb-4231-961c-641c28b5422a"))
-		(pin "2" (uuid "13275586-f942-4685-91d1-9f9dd330ef4c"))
-		(pin "3" (uuid "8b9fce7c-6c04-4cf7-9224-52bf5709c65f"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire (pts (xy 213.36 165.1) (xy 218.44 165.1)) (stroke (width 0) (type default)) (uuid "f6df877f-ef34-4458-843c-e282eb4ab14f"))
-	(global_label "3.3V"
-		(shape input)
-		(at 218.44 165.1 0)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "92bb4949-e57c-4e14-bbbc-d204358384d9")
-	)
-	(wire (pts (xy 213.36 170.17999999999998) (xy 218.44 170.17999999999998)) (stroke (width 0) (type default)) (uuid "039c140b-9744-42cf-924b-9aa37d85fd1a"))
-	(global_label "DGND"
-		(shape input)
-		(at 218.44 170.17999999999998 0)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "c407547d-1584-4038-ac35-d7c900455fed")
-	)
-
-	(global_label "CH2_BUF"
-		(shape input)
-		(at 180.34 175.26 180)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "8d82f787-fbed-49e3-ae97-b92643f84e50")
-	)
-	(wire (pts (xy 180.34 175.26) (xy 187.96 175.26)) (stroke (width 0) (type default)) (uuid "6429f2c1-bacd-4148-b856-b46429718aa7"))
-	(symbol
-		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
-		(at 193.04 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e05c5ad6-e80b-42bd-a18d-1dd24770a38d")
-		(property "Reference" "R33"
-			(at 193.04 172.974 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "1k"
-			(at 193.04 177.546 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
-			(at 193.04 175.26 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Datasheet" "~"
-			(at 193.04 175.26 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "Current-Limiting Resistor for ESP32-S3 ADC Protection"
-			(at 193.04 175.26 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "cbc6779b-7136-4d4b-86e2-11522b02b6a5"))
-		(pin "2" (uuid "4d52a83e-991c-402c-ad48-f9d2bf75cd58"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire (pts (xy 198.12 175.26) (xy 203.2 175.26)) (stroke (width 0) (type default)) (uuid "625f7e46-42de-4cbe-af36-ecca05eb15a0"))
-	(junction (at 198.12 175.26) (diameter 0) (color 0 0 0 0) (uuid "6189ad45-3f4e-498e-bf66-757587216501"))
-	(global_label "CH-2"
-		(shape output)
-		(at 198.12 175.26 90)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "015b6725-d3f5-4110-a175-4ccd3d5b6ed9")
-	)
-	(symbol
-		(lib_id "lcsc_imported:BAT54S_C545549")
-		(at 208.28 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a0a920b-238e-4560-804c-df6263633831")
-		(property "Reference" "D10"
-			(at 212.09 180.34 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "BAT54S"
-			(at 206.502 183.642 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C545549_SOT-23-3_L2_9-W1_3-P1_90-LS2_4-TL"
-			(at 218.44 175.26 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403231255_UMW-Youtai-Semiconductor-Co---Ltd--BAT54S_C545549.pdf"
-			(at 208.153 177.423 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "Dual Schottky Barrier Diode Clamp for ESP32 ADC Protection"
-			(at 208.28 175.26 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "LCSC" "C545549"
-			(at 208.28 175.26 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "7d4b79a0-253a-49a2-acab-573d72dc4632"))
-		(pin "2" (uuid "962a7d02-a1ad-4f29-98c2-3177cedf5c16"))
-		(pin "3" (uuid "97f1c6c7-dd69-4a3c-ab0e-92d5841f0286"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire (pts (xy 213.36 172.72) (xy 218.44 172.72)) (stroke (width 0) (type default)) (uuid "9e3949ba-4bba-4951-b4d5-85b724aac656"))
-	(global_label "3.3V"
-		(shape input)
-		(at 218.44 172.72 0)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "4fd289d8-91dc-404b-b64e-11dc3e94a4c0")
-	)
-	(wire (pts (xy 213.36 177.79999999999998) (xy 218.44 177.79999999999998)) (stroke (width 0) (type default)) (uuid "4f23c86c-9c72-4e9d-b384-27fa6013d13a"))
-	(global_label "DGND"
-		(shape input)
-		(at 218.44 177.79999999999998 0)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "9244ef54-8cde-4c1b-b1e4-0dda9041bc38")
-	)
-
-	(global_label "CH3_BUF"
-		(shape input)
-		(at 180.34 182.88 180)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "b7958485-c528-46d4-9d96-8db2b0ce5d72")
-	)
-	(wire (pts (xy 180.34 182.88) (xy 187.96 182.88)) (stroke (width 0) (type default)) (uuid "57842c63-7d9b-408d-b227-bd60fb386073"))
-	(symbol
-		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
-		(at 193.04 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33550562-a337-4cc1-bbce-7453eeb6999f")
-		(property "Reference" "R34"
-			(at 193.04 180.594 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "1k"
-			(at 193.04 185.166 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
-			(at 193.04 182.88 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Datasheet" "~"
-			(at 193.04 182.88 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "Current-Limiting Resistor for ESP32-S3 ADC Protection"
-			(at 193.04 182.88 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "ca7cc613-a42e-44e9-8e32-70dce6989de2"))
-		(pin "2" (uuid "dcec4963-a5af-4c6c-a5bc-2ff936ac0774"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire (pts (xy 198.12 182.88) (xy 203.2 182.88)) (stroke (width 0) (type default)) (uuid "1f66c316-f3d9-485f-b36f-d51e40bd9661"))
-	(junction (at 198.12 182.88) (diameter 0) (color 0 0 0 0) (uuid "903bbbb6-9c12-45c9-8cfe-2b577eb82a19"))
-	(global_label "CH-3"
-		(shape output)
-		(at 198.12 182.88 90)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "3633fd8f-d860-4dd4-8ad9-161d1066a5ce")
-	)
-	(symbol
-		(lib_id "lcsc_imported:BAT54S_C545549")
-		(at 208.28 182.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4745bf7-62b4-433a-b035-c9514a9eee64")
-		(property "Reference" "D11"
-			(at 212.09 187.96 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "BAT54S"
-			(at 206.502 191.262 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C545549_SOT-23-3_L2_9-W1_3-P1_90-LS2_4-TL"
-			(at 218.44 182.88 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403231255_UMW-Youtai-Semiconductor-Co---Ltd--BAT54S_C545549.pdf"
-			(at 208.153 185.043 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "Dual Schottky Barrier Diode Clamp for ESP32 ADC Protection"
-			(at 208.28 182.88 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "LCSC" "C545549"
-			(at 208.28 182.88 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "3100d2fa-123c-45e2-894b-af5dc01e3e06"))
-		(pin "2" (uuid "82836d97-a15b-412c-a5eb-8d55ac95c8f7"))
-		(pin "3" (uuid "1071d1ea-94ae-4a72-a3a3-cf042d14a1ab"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire (pts (xy 213.36 180.34) (xy 218.44 180.34)) (stroke (width 0) (type default)) (uuid "2eb5cbd2-3fe6-486e-8f78-8b6e3b6f4502"))
-	(global_label "3.3V"
-		(shape input)
-		(at 218.44 180.34 0)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "107a2747-a4eb-458c-a7fa-005d179eebb2")
-	)
-	(wire (pts (xy 213.36 185.42) (xy 218.44 185.42)) (stroke (width 0) (type default)) (uuid "9f47235d-d084-469d-b677-959e039b0949"))
-	(global_label "DGND"
-		(shape input)
-		(at 218.44 185.42 0)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "9157f32f-5a81-4083-94c6-de4d56e56d0b")
-	)
-
-	(global_label "CH4_BUF"
-		(shape input)
-		(at 180.34 190.5 180)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "38ddc8ec-b10a-4953-be6a-68b9f224e55a")
-	)
-	(wire (pts (xy 180.34 190.5) (xy 187.96 190.5)) (stroke (width 0) (type default)) (uuid "049515dc-a5b9-4837-a9b4-40ed46643244"))
-	(symbol
-		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
-		(at 193.04 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fd8a2e5-be76-4955-b48f-b19a57f05ce6")
-		(property "Reference" "R35"
-			(at 193.04 188.214 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "1k"
-			(at 193.04 192.786 0)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
-			(at 193.04 190.5 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Datasheet" "~"
-			(at 193.04 190.5 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "Current-Limiting Resistor for ESP32-S3 ADC Protection"
-			(at 193.04 190.5 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "8ce05d50-5093-4c27-a15d-1750cd2942eb"))
-		(pin "2" (uuid "01606ea2-4624-4c78-bc12-bd7c239f159f"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire (pts (xy 198.12 190.5) (xy 203.2 190.5)) (stroke (width 0) (type default)) (uuid "d1facfcc-b5db-4891-b0b1-2027dc337b77"))
-	(junction (at 198.12 190.5) (diameter 0) (color 0 0 0 0) (uuid "b2832df4-fb96-4fb4-8785-6d66c964d7d1"))
-	(global_label "CH-4"
-		(shape output)
-		(at 198.12 190.5 90)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "5337a5a9-9df7-4c85-b7c1-56b86acf6440")
-	)
-	(symbol
-		(lib_id "lcsc_imported:BAT54S_C545549")
-		(at 208.28 190.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35471754-f482-4a23-8aa8-0de2ee679a09")
-		(property "Reference" "D12"
-			(at 212.09 195.58 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "BAT54S"
-			(at 206.502 198.882 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C545549_SOT-23-3_L2_9-W1_3-P1_90-LS2_4-TL"
-			(at 218.44 190.5 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403231255_UMW-Youtai-Semiconductor-Co---Ltd--BAT54S_C545549.pdf"
-			(at 208.153 192.663 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "Dual Schottky Barrier Diode Clamp for ESP32 ADC Protection"
-			(at 208.28 190.5 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "LCSC" "C545549"
-			(at 208.28 190.5 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "3ebfc127-0e2f-45b8-a2f1-e5f1cdcee696"))
-		(pin "2" (uuid "d55c2f72-ab92-489e-a6ce-a18754910697"))
-		(pin "3" (uuid "b5ba4cc3-988d-469f-93fc-6a860c636e13"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire (pts (xy 213.36 187.96) (xy 218.44 187.96)) (stroke (width 0) (type default)) (uuid "210a2f26-779c-450e-832e-76a55e530434"))
-	(global_label "3.3V"
-		(shape input)
-		(at 218.44 187.96 0)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "48ca3b03-b54c-4081-9d76-87eb3a907a19")
-	)
-	(wire (pts (xy 213.36 193.04) (xy 218.44 193.04)) (stroke (width 0) (type default)) (uuid "f598f1da-a7e9-4f4e-b7c5-f71585c34eaa"))
-	(global_label "DGND"
-		(shape input)
-		(at 218.44 193.04 0)
-		(effects (font (size 1.27 1.27)) (justify left))
-		(uuid "20b3a142-795d-46a0-a2f8-4175b2f5fd66")
-	)
-
-	(symbol
-		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
-		(at 158.496 187.198 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bae4d71a-2d06-42bd-816d-ec108dba7ff3")
-		(property "Reference" "R36"
-			(at 160.782 187.198 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "1k"
-			(at 156.21 187.198 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
-			(at 158.496 187.198 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "Pull-down resistor for Q1 pulse output"
-			(at 158.496 187.198 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "943b60d6-8569-4a4a-bea1-4250e8ed5fb2"))
-		(pin "2" (uuid "6b0b8411-3a72-45d8-86b1-52d6015ac1fb"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(junction (at 158.496 182.118) (diameter 0) (color 0 0 0 0) (uuid "f6838c1a-ea44-49db-8ee4-d37bbd7e5d71"))
-	(wire (pts (xy 158.496 192.278) (xy 158.496 195.58)) (stroke (width 0) (type default)) (uuid "0fa867ec-1168-4f23-a211-25e7d812be1c"))
-	(global_label "DGND" (shape input) (at 158.496 195.58 270) (effects (font (size 1.27 1.27)) (justify left)) (uuid "0f3060eb-9612-4c9a-801d-3062449baa88"))
-
-	(symbol
-		(lib_id "lcsc_imported:MF1/4W-100KΩ±1%_T52")
-		(at 113.03 186.182 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7604c61-ef81-4fae-b55b-9026ba3ef287")
-		(property "Reference" "R37"
-			(at 115.316 186.182 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Value" "1k"
-			(at 110.744 186.182 90)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint" "lcsc_footprints:C119353_RES-TH_BD2_3-L6_5-P10_50-D0_5"
-			(at 113.03 186.182 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Description" "Pull-down resistor for Q4 pulse output"
-			(at 113.03 186.182 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "d100fdb8-0748-41ad-9d54-f1739741026f"))
-		(pin "2" (uuid "9e303fc6-781e-4e79-a157-c63bdc68343d"))
-		(instances
-			(project "mars0x1_LAB"
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(junction (at 113.03 181.102) (diameter 0) (color 0 0 0 0) (uuid "a5a4753b-3373-4868-984e-c4fb06c79e4e"))
-	(wire (pts (xy 113.03 191.262) (xy 113.03 194.31)) (stroke (width 0) (type default)) (uuid "3828e053-4b1d-46c6-b8a0-79b4399ead7a"))
-	(global_label "DGND" (shape input) (at 113.03 194.31 270) (effects (font (size 1.27 1.27)) (justify left)) (uuid "2ac3c4b1-368e-4cdf-ad01-60932ef8409b"))
-
-
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
 	(embedded_fonts no)
-	(symbol
-		(lib_id "Connector:Conn_01x07_Socket")
-		(at 182.88 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3820a4b-91fb-41a2-9988-fa0012345678")
-		(property "Reference" "J12"
-			(at 184.15 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AD9833_ALT"
-			(at 184.15 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Alternate AD9833 socket (Pin 4=FSYNC, Pin 6=MOSI)"
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1" (uuid "e3820a4b-91fb-41a2-9988-fa0012345671"))
-		(pin "2" (uuid "e3820a4b-91fb-41a2-9988-fa0012345672"))
-		(pin "3" (uuid "e3820a4b-91fb-41a2-9988-fa0012345673"))
-		(pin "4" (uuid "e3820a4b-91fb-41a2-9988-fa0012345674"))
-		(pin "5" (uuid "e3820a4b-91fb-41a2-9988-fa0012345675"))
-		(pin "6" (uuid "e3820a4b-91fb-41a2-9988-fa0012345676"))
-		(pin "7" (uuid "e3820a4b-91fb-41a2-9988-fa0012345677"))
-		(instances
-			(project ""
-				(path "/d5dcea9e-5eb1-4ea2-af60-a0d3a7c1c5c8"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 177.8 71.12 180)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "e3820a4b-91fb-41a2-9988-fa0012345682")
-	)
-	(global_label "DGND"
-		(shape input)
-		(at 177.8 73.66 180)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "e3820a4b-91fb-41a2-9988-fa0012345683")
-	)
-	(global_label "GPIO 10"
-		(shape input)
-		(at 177.8 76.2 180)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "e3820a4b-91fb-41a2-9988-fa0012345684")
-	)
-	(global_label "GPIO 13"
-		(shape input)
-		(at 177.8 78.74 180)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "e3820a4b-91fb-41a2-9988-fa0012345685")
-	)
-	(global_label "GPIO 11"
-		(shape input)
-		(at 177.8 81.28 180)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "e3820a4b-91fb-41a2-9988-fa0012345686")
-	)
-	(wire
-		(pts (xy 177.8 83.82) (xy 162.56 83.82))
-		(stroke (width 0) (type default))
-		(uuid "e3820a4b-91fb-41a2-9988-fa0012345687")
-	)
 )
